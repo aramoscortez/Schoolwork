@@ -6,4 +6,4 @@ I have done work in...
   - JAVA
   - Python
 
-Please feel free to look at my classwork!😊
+Please feel free to look at my classwork!
