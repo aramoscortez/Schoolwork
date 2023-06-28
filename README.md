@@ -5,5 +5,6 @@ I have done work in...
   - R
   - JAVA
   - Python
+  - Excel
 
 Please feel free to look at my classwork!
