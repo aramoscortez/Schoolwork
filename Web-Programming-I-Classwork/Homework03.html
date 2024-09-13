@@ -1,0 +1,70 @@
+<!--
+    Abby Ramos Cortez
+    ITEC 225
+    Homework 03
+    09/18/2023
+-->
+
+<html>
+    <head>
+        <title>Homework 3</title>
+    </head>
+    <body>
+        <h1 id="title">Homework 3 - Employee Table & New Employee Form</h1>
+        <hr/>
+        <h3 class="heading">Employees</h3>
+        <table>
+            <th id="firstNameCol" class="colNames">First Name</th>
+            <th id="lastNameCol" class="colNames">Last Name</th>
+            <th id="emailCol" class="colNames">Email</th>
+            <th id="phoneNumCol" class="colNames">Phone Number</th>
+            <th id="shiftNumCol" class="colNames">Shift #</th>
+            <tr>
+                <td>Jace</td><td>Ramos</td><td>jjramos3@gmail.com</td>
+                <td>703-392-5603</td><td>2</td>
+            </tr>
+            <tr>
+                <td>Tiana</td><td>Dennis</td><td>tianadennis09@hotmail.com</td>
+                <td>571-284-0283</td><td>1</td>
+            </tr>
+            <tr>
+                <td>Easton</td><td>Ramirez</td><td>eastonr@yahoo.com</td>
+                <td>571-749-8562</td><td>3</td>
+            </tr>
+            <tr>
+                <td>Aurora</td><td>Jameson</td><td>aurorajmsn@gmail.com</td>
+                <td>703-990-1284</td><td>1</td>
+            </tr>
+            <tr>
+                <td>Adely</td><td>Cortez</td><td>adelyycort@hotmail.com</td>
+                <td>703-657-3749</td><td>3</td>
+            </tr>
+        </table>
+        <br/>
+
+        <h3 class="heading">Add a New Employee</h3>
+        <form action="https://www.radford.edu/newEmployee.php" method="POST">
+            <label id="firstNameLabel" class="labelName" name="firstName">First Name</label>
+            <input type="text" name="firstName"/>
+            <br/>
+            <br/>
+            <label id="lastNameLabel" class="labelName" name="lastName">Last Name</label>
+            <input type="text" name="lastName"/>
+            <br/>
+            <br/>
+            <label id="emailLabel" class="labelName" name="email">Email</label>
+            <input type="text" name="email"/>
+            <br/>
+            <br/>
+            <label id="phoneNumLabel" class="labelName" name="phoneNumber">Phone Number</label>
+            <input type="text" name="phoneNumber"/>
+            <br/>
+            <br/>
+            <label id="shiftNumLabel" class="labelName" name="shiftNum">Shift #</label>
+            <input type="number" name="shiftNum"/>
+            <br/>
+            <br/>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
