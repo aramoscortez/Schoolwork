@@ -1,0 +1,21 @@
+#page-title
+{
+    color:darkslategray;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 2%;
+    text-align: center;
+}
+.card-title
+{
+    color: dimgrey;
+    text-align: center;
+}
+.card-text
+{
+    color: dimgrey;
+    text-align: center;
+}
+.card 
+{
+    border-color: dimgrey;
+}
