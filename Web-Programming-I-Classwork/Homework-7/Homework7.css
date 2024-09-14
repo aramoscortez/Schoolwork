@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('feast-of-flesh-bb/fofbb_ital.ttf') format('opentype'), url('feast-of-flesh-bb/fofbb_reg.ttf') format('opentype');
+}
+
+#page-title
+{
+    text-align: center;
+    padding: 2%;
+    color: white;
+    font-family: 'CustomFont';
+}
+
+#box
+{
+    width: 33.33%; 
+}
+
+#button
+{
+    background-color: #F8731E;
+    border-color: white;
+    justify-content: center;
+    font-family: 'CustomFont';
+}
+
+
+#form-data
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.form-control::placeholder
+{
+    font-family: 'CustomFont';   
+}
+
+
+body {
+    background-image: url('Halloween-Background.jpg'); /* Replace 'background-image.jpg' with the actual path to your image file */
+    background-size: cover; /* Scales the image to fit the entire viewport, potentially distorting its aspect ratio */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Keeps the image fixed as the content scrolls */
+    background-position: center; /* Center the image both horizontally and vertically */
+}
+
+
+.feedback
+{
+    color: white;
+    font-family: 'CustomFont';
+}
