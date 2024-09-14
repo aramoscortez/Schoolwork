@@ -1,0 +1,92 @@
+.box
+{
+    border-style: solid;
+    border-color:slateblue;
+    border-width: 3px;
+    clear:both;
+    margin: 4%;
+}
+.blank
+{
+    text-decoration: none;
+}
+.dropDown
+{
+    border-style: solid;
+    border-width: 2px;
+    color:dimgrey;
+    background-color:cornsilk;
+    max-width: 30%;
+    margin:7%;
+    padding: 10px;
+}
+.blank:visited, .blank:link
+{
+    color:black;
+}
+#navbar
+{
+    border-style:solid;
+    border-width: 4px;
+    color:white;
+    background-color:whitesmoke;
+    max-width: 50%;
+    height: 10%;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropDownItem
+{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+    padding: 16px;
+}
+#main
+{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 1%;
+}
+#excelcol
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#sqlcol
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+#tableaucol
+{
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+.images
+{
+    max-width: 100%;
+    height: auto;
+}
+.dropDown:hover
+{
+    background-color: cornsilk;
+}
+.dropDown:hover .dropDownItem
+{
+    display:block;
+}
+.dropDown:hover .dropDownItem a 
+{
+    color:dimgrey;
+    padding: 4px;
+    text-decoration: none;
+    display: block;
+}
